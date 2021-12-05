@@ -1,0 +1,16 @@
+package day28_constructorCall_staticKeyword;
+
+public class c {
+
+
+			String isim = "Ali Can";
+			static int yas = 44;
+			public static void main(String[] args) {
+		        System.out.print(isim);
+		        System.out.print(yas);
+			}
+		}
+
+	}
+
+}

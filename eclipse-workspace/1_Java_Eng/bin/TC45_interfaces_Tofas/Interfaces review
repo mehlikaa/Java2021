@@ -1,0 +1,83 @@
+   interface asla bir class degildir. interface interfacedir
+ 
+ 1) Interface yapilarda, concrete metod asla create edilemez. 
+ sadece abstract edilemez.
+ 
+ (class da old gibi; obje ve constructor yoktur.)
+ 
+ 2) Java, multiople inheritance desteklemz. 
+    Ancak interface parent'ler multiple  inheritance destekler.
+    
+  3) birden fazla parent classlarda , ayni isimli metodlarin olmasi durumunda child class ayni isimli
+  	farkli bodilerden hangisini kullanacagina karar vermeez.
+  	Java secim yapamaz.
+  	Interface yapilari cozum buluyor.
+  	Metodlarin badisi olmadigi icin, ayni isimli metodlar birbiri ile 
+  	tamamen ayni old icin secim tercih sozkonusu degildir. Child class 
+  	parent interface dan ayni isimli metodlardan birini override ederek
+  	sorunu cozer.
+  
+  	signaturelari ayni olan metodlar inheritance yapilarda beraber kullanilabilir
+  	
+  	Trick : Farkli parent interfacelerde, ayni isimli metodlari, hersey tamamen ayni olarak kullanabilirsin
+  	
+  	(Parent interfaclerde ayni isimli farkli return typeli metodlar child class'ta CTE verir.)
+  	
+ 4) interface yapilarda, tum metodlar abstract olmak zorunda oldugundan metod
+     signature "abstract" keywordu yazilmayabilir.
+ 
+  		public abstract void koltuk();   ==> abstract metod abstract keyword kullanilmis 
+		public void ayna();	    ==> abstract metod but abstract keyword kullanilmamis
+		
+ 5)Interfaceslerdeki tum memberlar public oldugu icin, Access modifier yazilmasa da apublic ile ayni islemi yapar.
+   		
+		public void ayna(); <==>  void ayna(); ayni islemi yaparlar. 
+		default olarak publictir.
+Trick : normal classlarda access modifier yazilmazsa default degerini alir.
+		Ancak interfacelerde, yazilmazsa public olur.
+		
+6) interfaceler kendi arasinda parent child (extends) iliskisi kurabilir
+   Interfaceleri bir class'a parent yapmak icin  "implements   " keywordu kullanilir.
+   Classlari bir classa parent yapmak icin, "extends "  keywordu kullanilir.
+   
+   class ==> class : extends 
+   interface ==> interface : extends 
+   class ==> interface : implements 
+   interface ==> class : o-la-maz   interface'in parenti class olamaz.
+   
+ 7) interfacelerde variableler mutlaka finaldir
+ 	a) final variablelar italik ve bold'dur ve buyuk harfle yazilmalidir
+ 	b) initialize edilmedezse CTE verir.
+ 	
+ 
+8) interfacelerde variablelar mutlaka staticdir. dolayisi ile obj create etmeden interface ismi 
+    ile ulasilabilir. bu bir static ozelligidir.
+  
+ 9) *****interfacelerde tum memberlar; Publictir.
+ Dolayisi ile, tum interface variablelari; public +static+final
+ (yazsa da yazmasa da)
+ tum memberlar static degildir.
+ 
+ {  
+    //Interface de
+	//Variablelar access modifier yazsaniz da yazmazsaniz  da Publictir
+}	//variablelarin anahtar keywordleri Flanldir yazsaniz da yazmasaniz da (objesiz getirebiliyorduk)
+	// 		"		yazsaniz yazmasaniz da statictirler
+    
+    yazmadiginda, public , static kabuleder
+
+
+Ayni isimde variablelar da kullanabiliirim. 
+		
+		System.out.println(IcDonanim.RENK);
+		System.out.println(DisDonanim.RENK);
+		System.out.println(Lastik.RENK);
+		
+		
+Runner classi neydi?
+diger classlarla aramizda  kurdugumuz hiyerarsiden sonra bir obje uerinden 
+buytun metod ve ozellikleri calsitirur
+
+
+		
+

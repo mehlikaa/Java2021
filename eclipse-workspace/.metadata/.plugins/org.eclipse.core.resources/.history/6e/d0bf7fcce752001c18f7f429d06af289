@@ -1,0 +1,16 @@
+package day30_immutableClasses;
+
+public class C03_ {
+
+	public static void main(String[] args) {
+		
+		String str1="Mustafa";
+		String str2="Mustafa";
+		
+		String str3=new String("Mustafa");   //non primitive new ile olusmali
+		String str4=new Sring ("Mustafa");		//cok kullanildigi icin string de kullanilma mecburiyeti kalmis
+		
+				System.out.println(str1==str2);
+	}
+
+}

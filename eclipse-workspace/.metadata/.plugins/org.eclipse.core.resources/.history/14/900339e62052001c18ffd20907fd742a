@@ -1,0 +1,31 @@
+package day29_StaticBlock_PassByValue;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class C04_PassByValueList {
+
+	public static void main(String[] args) {
+		// bir list olusturalim :)
+		// sonra list elemanlarini degistir. metodu yazip orada 
+		// list elemanlarindan bazilarini degistirelim.
+		// main metoda dondukten sonra yeniden listi yazdiralim.
+		
+		List<String> harfler=new ArrayList<>();
+		
+		harfler.add("A");
+		harfler.add("B");
+		harfler.add("C");
+		
+		System.out.println("Metoddan once : "+ harfler);	
+		listDegistir(harfler);
+
+	}
+
+	private static void listDegistir(List<String> harfler) {
+		
+		harfler.set(0, "D");
+		System.out.println("Metodda degistirdigimiz ile"+ harfler);	
+		}
+
+}

@@ -1,0 +1,16 @@
+package day27_constructor_constructorCall;
+
+public class C01_CarRunner {
+
+	public static void main(String[] args) {
+		//dunki car classindan bir obje olusturlim
+
+		
+		Car1 car1=new Car1();
+		
+		System.out.println(car1.km+ "  km\n"+car1.model+ " modelimiz"+car1.renk+" rengim"+car1.satilikMi+" Satilik?"+car1.yil+" yil");
+		
+		
+	}
+
+}

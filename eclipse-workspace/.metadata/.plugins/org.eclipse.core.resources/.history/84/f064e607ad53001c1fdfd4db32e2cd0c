@@ -1,0 +1,15 @@
+package day31_dateAndTime;
+
+public class C04 {
+
+	public static void main(String[] args) {
+	
+		// bir string ve bir int variable olusturalim
+		//bir loop icerisinde bu variablelaeri 1000 kere degistirip 
+		// islem surelerini kiyaslayalim.
+		
+
+
+	}
+
+}

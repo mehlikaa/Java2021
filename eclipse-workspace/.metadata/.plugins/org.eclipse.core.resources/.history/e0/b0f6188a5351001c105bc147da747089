@@ -1,0 +1,37 @@
+package day28_constructorCall_staticKeyword;
+
+public class C02 {
+
+	int x=5;
+	static int y=10;
+	
+	
+	
+	
+	public static void main(String[] args) {
+		// 3 obje olusturalim ve degisismleri gozlemleyelim.
+		C02 obje1=new C02();
+		System.out.println("Obje1 icin x: "+ obje1.x+ "   Obje1 icin static y: "+y);
+		
+		obje1.x++;
+		y++;
+		
+		System.out.println("Obje1 icin x: "+ obje1.x+ "   Obje1 icin static y: "+y);
+
+//---------------
+		
+		C02 obje2=new C02();
+		
+		System.out.println("Obje1 icin x: "+ obje1.x+ "   Obje1 icin static y: "+y);
+		
+		obje1.x++;
+		y++;
+		
+		
+		
+		//System.out.println("Obje1 icin x: "+ obje2.x+ "   Obje1 icin static y: "+obje2.y);
+		
+		
+	}
+
+}

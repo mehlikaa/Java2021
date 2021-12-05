@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;C02_immutable&apos; to &apos;day32_immutable&apos;&#x0A;- Original project: &apos;5-JavaFall2021&apos;&#x0A;- Original element: &apos;5-JavaFall2021/src/C02_immutable&apos;&#x0A;- Renamed element: &apos;5-JavaFall2021/src/day32_immutable&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;C02_immutable&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;C02_immutable" name="day32_immutable" qualified="false" references="true" stamp="1638673192953" textual="false" version="1.0"/>
+</session>

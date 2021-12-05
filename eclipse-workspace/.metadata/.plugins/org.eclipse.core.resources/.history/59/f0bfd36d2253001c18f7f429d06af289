@@ -1,0 +1,16 @@
+package Interview;
+
+import java.util.Scanner;
+
+public class I01_Tersten {
+
+	public static void main(String[] args) {
+		
+		// Scanner scan=new Scanner(System.in);
+		// System.out.println("Bir metin giriniz :");
+		// String cumle=scan.nextLine();
+		String cumle="Zaman cok hizli akar";
+		System.out.println(cumle);
+	}
+
+}

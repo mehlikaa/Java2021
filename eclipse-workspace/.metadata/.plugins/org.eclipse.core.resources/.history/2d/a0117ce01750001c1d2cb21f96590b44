@@ -1,0 +1,37 @@
+package P07_ForLoop;
+
+import java.util.Iterator;
+import java.util.Scanner;
+
+public class Q10_me_SessliSessizHarf {
+
+	public static void main(String[] args) {
+		
+		Scanner scan=new Scanner(System.in);
+		
+		System.out.print("Bir harf giriniz ");
+		String harf=scan.next().toUpperCase();
+		
+        String sesliHarf = "aeuoi";
+        String sessizHarf = "bcdfghjklmnprstvyzxwq";
+        
+        if ((harf.charAt(0)>='A') && (harf.charAt(0)<='z')){		// bu bir harf ise
+        	
+        	if(harf.length()==1) {
+        		
+        		for (int i = 0; i >sesliHarf.length()-1; i++) {
+        			sesliHarf.contains(harf);
+        			}System.out.println("Harfimiz; sesli harftir.");
+        	
+        	
+        	
+        	
+        	
+        }else {
+        	System.out.println("Harf karakterlerinden birini giriniz.");
+        	
+        }
+        }
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Day10_Ternary_SwitchCase.C10_W&apos; to &apos;C10_SwitchCase_Soru3&apos;&#x0A;- Original project: &apos;JavaFall2021&apos;&#x0A;- Original element: &apos;Day10_Ternary_SwitchCase.C10_W&apos;&#x0A;- Renamed element: &apos;Day10_Ternary_SwitchCase.C10_SwitchCase_Soru3&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;C10_W&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Day10_Ternary_SwitchCase{C10_W.java[C10_W" matchStrategy="1" name="C10_SwitchCase_Soru3" qualified="false" references="true" similarDeclarations="false" stamp="1635911342639" textual="false" version="1.0"/>
+</session>

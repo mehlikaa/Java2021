@@ -1,0 +1,40 @@
+package Day14_staticKeywords;
+
+import java.util.Arrays;
+
+/*
+ * 1) Arrays are the store multiole data in a single container
+ * 2) All the data in an array must be same
+ * 3) Arrays can accept only "Primitives"and "referances" as element
+ *    Arrays can't accept   non-primitives as data type
+ 	  We can use references of string (addresses of String
+	4) Array is non-primitive 
+ */
+public class EC02_Arrays01 {
+
+	public static void main(String[] args) {
+		// How to create array
+		int arr1[]=new int[4];   // 4 : how many elements do we want to keep 
+								// Java ask before
+								// int[] arr1=new int[4]; possible creations int[] arr1; like main body structure
+		// how to print on the console
+		
+		System.out.println(arr1);  //  [I@5fcfe4b2    : adresi yazdirdi return
+									// it turns the address of arrays
+		System.out.println(Arrays.toString(arr1));  //[0, 0, 0, 0]  default values 
+	
+		// how to add elements in an array
+		arr1[0]=4;
+		System.out.println(Arrays.toString(arr1));  // [4, 0, 0, 0]
+		arr1[3]=8;
+		System.out.println(Arrays.toString(arr1));  // [4, 0, 0, 0]
+		
+		// make second element[1] 7, third element[2] 10 and check it
+		arr1[1]=7;
+		System.out.println(Arrays.toString(arr1));  // [4, 7, 0, 8]
+		arr1[2]=10;
+		System.out.println(Arrays.toString(arr1));  // [4, 7, 10, 8]
+		
+	}
+
+}

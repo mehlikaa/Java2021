@@ -1,0 +1,29 @@
+package day31_dateAndTime;
+
+import java.time.LocalDate;
+import java.time.LocalTime;
+
+public class C01_localDate {
+	
+	public static void main(String[] args) {
+		
+		LocalDate tarih= LocalDate.now();
+		System.out.println(tarih);				// 2021-12-02
+		
+		System.out.println(tarih.getDayOfYear());		// 336
+		
+		System.out.println(tarih.getMonth());		// DECEMBER
+	
+		
+		System.out.println(tarih.plusYears(2));
+		System.out.println(tarih.plusWeeks(4));
+		System.out.println(tarih.plusDays(12));
+		
+		System.out.println(tarih.minusWeeks(5));
+		
+		System.out.println(tarih.minusYears(5).minusMonths(4).minusDays(0));
+		System.out.println(tarih.plusWeeks(5).minusWeeks(5));
+		
+		
+	}
+}

@@ -1,0 +1,14 @@
+package day26_constructors;
+
+public class y {
+	
+	int sayi1;
+	String yazi1;
+	
+	public static void main(String[] args) {
+		
+	X obj=new X();
+	System.out.println(
+	}
+
+}

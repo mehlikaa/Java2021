@@ -1,0 +1,7 @@
+INDEX VERSION 1.131+/Users/mehlika/Desktop/GitHub_Java/Java2021/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core
+1964729860.index
+3232425523.index
+148427072.index
+4045165555.index
+652309308.index
+255868410.index

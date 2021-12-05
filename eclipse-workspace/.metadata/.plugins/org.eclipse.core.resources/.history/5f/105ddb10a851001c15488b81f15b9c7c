@@ -1,0 +1,29 @@
+package PC10_List_Hbeyden;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Q03 {
+
+    public static void main(String[] args) {
+    /*
+   Bir integer list oluşturunuz ve bu list’deki tum sayıların karesinin
+   toplamını bulunuz. Sonucu ekrana yazdırınız.
+    */
+    List<String> list=new ArrayList<>();
+    Scanner scan=new Scanner(System.in);
+    
+    System.out.println("Listeye eklemek istediginiz sayilari giriniz. q ile cikiniz.");
+    
+    int toplam=0; 
+    String islem="";
+   
+    while(!islem.equalsIgnoreCase("q")) {
+    	islem=scan.next();
+    	list.add(islem);	
+	}
+    
+    System.out.println("Listem : "+list);
+    }
+}

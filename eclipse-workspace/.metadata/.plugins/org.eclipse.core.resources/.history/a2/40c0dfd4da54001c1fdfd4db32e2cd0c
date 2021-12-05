@@ -1,0 +1,42 @@
+package PC08_while_dowhile__l;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Scanner;
+
+public class Q01_armstrong_kisa {
+
+	public static void main(String[] args) {
+		
+		Scanner scan=new Scanner(System.in);
+		
+		System.out.print("Sayinizi giriniz : ");
+		String sayi=scan.next();
+			
+		String[] strArr=sayi.split("");
+		System.out.println(Arrays.toString(strArr));
+		int intArr[]=new int[strArr.length];
+		
+		for (int i = 0; i < strArr.length; i++) {
+			intArr[i]=Integer.parseInt(strArr[i]);
+		}
+		System.out.println("Str Array1 "+Arrays.toString(strArr));
+		System.out.println("Int Array2 "+Arrays.toString(intArr));
+		
+		System.out.println(intArr[2]+intArr[1]);
+		double arms=0;
+		for(int carp:intArr) {
+				arms=Math.pow(carp, intArr.length);
+		}
+		System.out.println("Sayim : "+sayi+"\n Armstrong degeri :"+(int)arms);
+		//int arms=0;
+		
+		/*int sayiat=sayi;
+		 while(sayiat>0) {
+			 hane++;
+			 sayiat/=10; 
+		 }*/
+	}
+
+}

@@ -1,0 +1,29 @@
+package CG02_Constructors;
+
+public class CarRunner {
+
+	public static void main(String[] args) {
+		
+		Car obj1=new Car(2020, "Ford");
+		
+		Car obj2=new Car(2022, "Opel", "Kirmizi", 1200, 2000,true);
+		
+		Car obj3=new Car(2005, "Astra", "Beyaz", 1500, 700, true, 9);
+		
+		/*
+		 * int yil=8;
+		String model;
+		String renk;
+		int motor;
+		int beygir;
+		boolean satilik;
+		 */
+
+		System.out.println("Moedelim : "+obj1.model+"\n Yili1 : "+obj1.yil);
+		System.out.println("Moedelim : "+obj3.model+"\n Yili1 : "+obj3.yil+"\nRenk :"+obj3.renk+"\nMotor : "+
+					obj3.motor+"\n Beygir : "+obj3.beygir+"\n Satailik Mi :"+obj3.satilik+"\nB : ");
+		
+		
+	}
+
+}

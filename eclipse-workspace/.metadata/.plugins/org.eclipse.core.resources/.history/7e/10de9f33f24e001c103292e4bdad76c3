@@ -1,0 +1,14 @@
+package day26_forEachLoop_Constructor;
+
+public class car {
+
+	int yil;
+	String renk;
+	String model;
+	int km;
+	boolean satilikMi;
+	
+	
+	
+	
+}

@@ -1,0 +1,18 @@
+package day26_constructors;
+
+import CG02_Constructors.Car;
+
+public class X {
+
+	int sayi1;
+	String yazi1;
+	
+	public static void main(String[] args) {
+		
+		X obj=new X();
+		
+		Car obj3=new Car(2020, " xxx");
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package day29_StaticBlock_PassByValue;
+
+public class C04_PassByValueList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

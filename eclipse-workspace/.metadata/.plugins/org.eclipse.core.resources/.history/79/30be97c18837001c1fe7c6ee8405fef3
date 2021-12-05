@@ -1,0 +1,16 @@
+package CB01;
+
+public class CB01_Variables {
+	public static void main(String[] args) {
+		char aLetter='u';
+		short byteNumber = (short) aLetter;
+		System.out.println(byteNumber);
+		// ascii koduna donusturdu.
+		
+		int byteNumber2 = (int)aLetter;
+		System.out.println(byteNumber2);
+		
+	}
+	
+	
+}

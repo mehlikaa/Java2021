@@ -1,0 +1,26 @@
+package CG02_Constructors;
+
+public class Car {
+
+	int yil;
+	String model;
+	String renk;
+	int motor;
+	int beygir;
+	boolean satilik;
+
+	public Car(int yil, String model) {
+		
+		this.model=model;
+		yil=yil;
+		
+		
+		
+		
+	}
+	
+	public Car(int yil, String model, String renk, int beygir) {
+
+	}
+
+}

@@ -1,0 +1,15 @@
+package day31_dateAndTime;
+
+import java.time.LocalDateTime;
+
+public class C05_DateTime_formatter {
+
+	public static void main(String[] args) {
+		
+		LocalDateTime tarihSaat= LocalDateTime.now();
+		 
+		System.out.println(tarihSaat);
+
+	}
+
+}

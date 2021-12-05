@@ -1,0 +1,17 @@
+package Day28_;
+
+import java.util.Arrays;
+
+public class Murat {
+
+	public static void main(String[] args) {
+		// Murat a ithafen
+		
+		String arr[]= {"MEhmet","adlsajn","jbdkb","Cihan"};
+		System.out.print(Arrays.toString(arr));
+		
+		
+
+	}
+
+}

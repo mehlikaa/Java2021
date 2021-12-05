@@ -1,0 +1,25 @@
+package day33_stringBuilder;
+
+public class C01_stringBuilder {
+
+	public static void main(String[] args) {
+		
+		StringBuilder sb=new StringBuilder();
+		System.out.println("sb.length : "+sb.length());
+		System.out.println("sb.length : "+sb.capacity());
+		
+		sb4.append("Cihan");
+		System.out.println("sb.length : "+sb.length());
+		System.out.println("sb.length : "+sb.capacity());
+		
+		StringBuilder sb4=new StringBuilder(7);
+		System.out.println("sb4.length : "+sb4.length());
+		System.out.println("sb4.length : "+sb4.capacity());
+		
+		sb4.append("Nilgun");
+		System.out.println("sb4.length : "+sb4.length());
+		System.out.println("sb4.length : "+sb4.capacity());
+		
+	}
+
+}

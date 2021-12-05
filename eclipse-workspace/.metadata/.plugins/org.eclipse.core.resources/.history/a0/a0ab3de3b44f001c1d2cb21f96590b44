@@ -1,0 +1,15 @@
+package day27_constructor_constructorCall;
+
+public class C01_CarRunner {
+
+	public static void main(String[] args) {
+		//dunki car classindan bir obje olusturlim
+
+		
+		Car1 car1=new Car1();
+		
+		
+		
+	}
+
+}

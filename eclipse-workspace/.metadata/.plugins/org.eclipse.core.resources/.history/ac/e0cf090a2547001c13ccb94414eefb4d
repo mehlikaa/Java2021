@@ -1,0 +1,28 @@
+package Day15_Arrays;
+
+import java.util.Arrays;
+
+public class EC01_Arrays {
+	
+	public static void main(String[] args) {
+		
+		/* Create an array, whose elements are "Ali ", "Bekir", "Zehra", "Yasin", "Mary"
+		 * and then print the elements in alphabetical order on the console
+		 * in different lines
+		 */
+		
+		
+		String arr[]=new String[5];
+		System.out.println(Arrays.toString(arr));   // output : [null, null, null, null, null]
+		
+		arr[0]="Ali";
+		arr[1]="Zehra";
+		arr[2]="Bekir";
+		arr[3]="Yasin";
+		arr[4]="Mary";
+		System.out.println(Arrays.toString(arr));
+		
+		
+		
+	}
+}

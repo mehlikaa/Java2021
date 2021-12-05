@@ -1,0 +1,16 @@
+package day31_dateAndTime;
+
+public class C01_DateTime {
+
+	public static void main(String[] args) {
+	
+		// bir string ve bir int variable olusturalim
+		//bir loop icerisinde bu variablelaeri 1000 kere degistirip 
+		// islem surelerini kiyaslayalim.
+		
+		String str = null;
+		System.out.println(str.charAt(0);
+
+	}
+
+}

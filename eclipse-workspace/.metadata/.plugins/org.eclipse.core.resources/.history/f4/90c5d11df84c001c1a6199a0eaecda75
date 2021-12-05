@@ -1,0 +1,18 @@
+package day23_MultiDimensionalArrays;
+
+import java.util.Scanner;
+
+public class C05_MDArray_Soru5 {
+
+	public static void main(String[] args) {
+		
+		Scanner scan=new Scanner)System.in);
+		System.out.println("Bir cumle giriniz :");
+		
+		String cumle=scan.next();
+		
+		System.out.println("Cumlem : "+cumle);
+
+	}
+
+}

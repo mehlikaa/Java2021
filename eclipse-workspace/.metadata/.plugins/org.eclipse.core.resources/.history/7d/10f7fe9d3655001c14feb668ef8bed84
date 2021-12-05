@@ -1,0 +1,15 @@
+package day33_stringBuilder;
+
+public class C02_delete {
+
+	public static void main(String[] args) {
+		
+		StringBuilder sb=new StringBuilder("Java candir can");
+
+		sb.deleteCharAt(11);
+		System.out.println("Delete 11.indexteki karakteri sildim : "+sb);
+		
+
+	}
+
+}

@@ -1,0 +1,24 @@
+package day31_dateAndTime;
+
+public class C04 {
+
+	public static void main(String[] args) {
+	
+		// bir string ve bir int variable olusturalim
+		//bir loop icerisinde bu variablelaeri 1000 kere degistirip 
+		// islem surelerini kiyaslayalim.
+		
+		LocalTime saat=LocalTime.now();
+		
+		System.out.println("Baslangic saati : "+ saat);
+		
+		int sayi=10;
+		for (int i = 0; i < 10000; i++) {
+			sayi++;
+		}
+		LocalTime saat2=LocalTime.now();
+		System.out.println( "Bitis saati : "+ saat2);
+
+	}
+
+}
