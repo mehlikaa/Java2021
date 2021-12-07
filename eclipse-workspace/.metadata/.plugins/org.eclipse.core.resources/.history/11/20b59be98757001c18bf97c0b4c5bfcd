@@ -1,0 +1,10 @@
+package javaProjects.JavaMarket;
+
+public class HB_Market {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

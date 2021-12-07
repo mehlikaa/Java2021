@@ -1,0 +1,21 @@
+package day35_encapsulation_inheritance;
+
+public class C01 {
+
+	private double not=49.9;
+	
+	public double getNot() {
+		return not;
+	}
+	
+	private boolean gecerMi=false;
+	
+	public boolean isGecerMi() {	//boolean da get is ile
+		return gecerMi;
+	}
+
+	
+	
+	
+	
+}

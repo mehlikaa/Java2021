@@ -1,0 +1,14 @@
+package day34_AccessModifier_encapsulation;
+
+public class C06_encapsulation {
+	
+public static void main(String[] args) {
+	
+	C05 obj1=new C05();
+	
+	System.out.println("C05 default asgari ucret : "+obj1.asgariMaas);
+}
+			
+}
+
+

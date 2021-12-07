@@ -1,0 +1,16 @@
+package day35_encapsulation_inheritance;
+
+public class C02_Setter {
+
+	public static void main(String[] args) {
+		
+		C01 ogr1=new C01();
+		
+		//ogretmenler ogrencinin notunu girsin ama tum notlari goremesin sadece gecip gecmedigini gorsun.
+		
+		System.out.println(ogr1.isGecerMi());
+		 // ogr1.isGecerMi()=10;			atama yapamam izin yok sadece get
+
+	}
+
+}

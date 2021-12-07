@@ -1,0 +1,12 @@
+package day34_AccessModifier_encapsulation;
+
+public class C05 {
+
+	int asgariMaas=4000; 		//default olmasi icin private /public yazmadik
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

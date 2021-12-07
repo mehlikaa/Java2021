@@ -1,0 +1,10 @@
+package day32_varargs_immutable;
+
+public class C02_varArgs {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

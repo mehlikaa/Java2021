@@ -1,0 +1,10 @@
+package HB14_encapsulation;
+
+public class Araba {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
