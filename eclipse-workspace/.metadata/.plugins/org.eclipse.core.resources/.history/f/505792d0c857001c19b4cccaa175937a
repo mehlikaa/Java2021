@@ -1,0 +1,14 @@
+package Dec12_proje_kitapci;
+
+import java.util.Scanner;
+
+public class Kitaplik {
+
+	public static void main(String[] args) {
+		
+		Scanner scan=new Scanner(System.in);
+		System.out.println("======Kitapligimiza Hosgeldiniz======");
+
+	}
+
+}
