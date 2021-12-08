@@ -2,7 +2,7 @@ package day35_encapsulation_inheritance;
 
 public class C01 {
 
-	private double not=49.9;	
+	private double not=50;	
 
 	private boolean gecerMi=false;
 

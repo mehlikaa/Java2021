@@ -1,6 +1,6 @@
-package day29_StaticBlock_PassByValue;
+package day35_encapsulation_inheritance;
 
-public class C02_PassByValue {
+public class Isci {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
