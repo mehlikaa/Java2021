@@ -1,0 +1,16 @@
+package day36_inheritance;
+
+public class UstaBasi extends Isci {
+
+	UstaBasi(){
+		System.out.println("Ustabasi parametresiz cons ");
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		UstaBasi ust1=new UstaBasi();
+		
+	}
+
+}

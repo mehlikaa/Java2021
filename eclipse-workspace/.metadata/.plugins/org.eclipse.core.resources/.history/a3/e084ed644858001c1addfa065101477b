@@ -1,0 +1,89 @@
+package CB_emlak;
+
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Runner {
+
+	static String patronId = "1";
+	static String patronSifre = "1";
+
+	static String calisanId = "2";
+	static String calisanSifre = "2";
+
+	static Scanner scan = new Scanner(System.in);
+
+	static int listeNo;
+	static String evTipi;
+	static String il;
+	static int odaSayisi;
+	static double fiyat;
+	static String stokDurumu;
+
+	static ArrayList<Emlak> envanter = new ArrayList<>();
+
+	public static void main(String[] args) {
+
+		String sifre = "";
+		String id = "";
+		boolean girisBasariliMi = true;
+
+		while (girisBasariliMi)
+			System.out.println("SILA Emlak Iyi Gunler Diler");
+
+		System.out.println("ID    :");
+		id = scan.next();
+		System.out.println("Sifre  :");
+		id = scan.next();
+
+		if (id.equals(patronId) && sifre.equals(patronSifre)) {
+			girisBasariliMi = false;
+			patron();
+		} else if (id.equals(calisanId) && sifre.equals(calisanSifre)) {
+			girisBasariliMi = false;
+			calisan();
+		} else {
+			System.out.println("Giris Basarisizdir ");
+		}
+	}
+
+	private static void calisan() {
+			
+			System.out.println("Gunaydin Emekci ");
+			while (true) {
+				System.out.println("\n1-Ekle \n2-Litele \n3-Cikis \nSecenek : ");
+				int secenek=scan.nextInt();
+				
+				switch (secenek) {
+				case 1: 
+					Emlak emlak1=new Emlak(listeNo, evTipi, il,odaSayisi, fiyat, stokDurumu);
+					envanter.add(emlak1);
+					break;
+				case 2: 
+					System.out.println("==============");
+					System.out.println("Envanter : ");
+					for (int i = 0; i < envanter.size(); i++) {
+						envanter.get(i).ListeleEmlak();
+					}
+					System.out.println("Toplam emlak sayiniz : "+envanter.size());
+					break;
+				case 3: 
+					System.out.println("Gulle gule yine bekleriz");
+							break;
+					
+	
+				default:
+					System.out.println("Yanlis giris");
+					break ;
+				}
+				
+			}
+		}
+
+	private static void patron() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

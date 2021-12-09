@@ -1,0 +1,10 @@
+package CB_emlak;
+
+public class Emlak {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

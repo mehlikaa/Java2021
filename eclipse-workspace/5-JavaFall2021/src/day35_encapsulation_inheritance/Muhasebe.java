@@ -6,6 +6,9 @@ public class Muhasebe extends Personel {
 	protected String statu;
 	protected int maas;
 	
+	Muhasebe(){
+		System.out.println("Muhasebeden gelen constructor");
+	}
 	public static void main(String[] args) {
 		
 		Muhasebe clsn1=new Muhasebe();

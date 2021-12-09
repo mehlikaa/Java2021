@@ -8,6 +8,10 @@ public class Personel {
 	protected String telNo;
 	protected int yas;
 	
+	Personel(){
+		System.out.println("Personelden gelen constructor");
+	}
+	
 	// eger variablelara Access Modifier yazmasak default Access Modifier atar ve
 	// sadece o package altindaki Child Classlar, personal classini  inheriit edebilir
 	// baska packege lardaki child classlarin da Personel Inherit edebilmesi icin 

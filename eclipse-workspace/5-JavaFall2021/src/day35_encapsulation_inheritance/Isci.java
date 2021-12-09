@@ -7,6 +7,10 @@ public class Isci extends Muhasebe {
 	protected String sendika;
 	
 	
+	public Isci() {
+		System.out.println("Isciden gelen constructor");
+
+	}
 	public static void main(String[] args) {
 		
 		Isci isci1=new Isci();

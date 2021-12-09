@@ -61,11 +61,14 @@ public class _2Kitaplik {
 	}
 
 	private static void kitapEkle() {
+		
 		System.out.print("Girmek istediginiz Kitabin adini giriniz :");
 		String yeniKitap = scan.next();
 		System.out.println( "Eklenecek Kitap : "+yeniKitap);
-		Kitap kitapEkle = new Kitap();
-		kitapEkle.kitaplar.add(yeniKitap);
+		_2Kitap kitapEkle = new _2Kitap();
+		kitapEkle.setKitaplar(yeniKitap);
+		
+		//kitapEkle.setKitapNo(kitapEkle.setKitapNo(kitapEkle.getKitapNo()+1));
 		
 
 		// System.out.println("Yeni Kitap listemizi gormek ister misiniz? (E/H): ");

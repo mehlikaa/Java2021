@@ -6,7 +6,7 @@ import java.util.List;
 
 public class _2Kitap {
 
-	private static List<Integer> kitapNo=new ArrayList<>(Arrays.asList(1,2,3,4,5,6,7,8,9,10));
+	private static List<Integer> kitapNo=new ArrayList<>(Arrays.asList(1001,1002,1003,1004,1005,1006,1007,1008,1009,1010));
 	
 	private static List<String> kitaplar=new ArrayList<>(Arrays.asList("Calikusu","Falaka","Sefiller","Pinokyo","Insan Ne Ile Yasar?","Beyaz Gemi","Fatih Harbiye", "Mor Salkimli Ev", "Yaban","Sinekli Bakkal"));
 
@@ -19,8 +19,22 @@ public class _2Kitap {
 		Kitap.kitaplar = kitaplar;
 	}
 
+	public static List<String> getKitaplar1() {
+		return kitaplar;
+	}
+
 	public static List<Integer> getKitapNo() {
 		return kitapNo;
+	}
+
+	public void setKitaplar(String yeniKitap) {
+		System.out.println("Sen ne is yaparsin?");
+		Kitap.kitaplar = kitaplar;
+		
+	}
+
+	public static void setKitapNo(List<Integer> kitapNo) {
+		_2Kitap.kitapNo = kitapNo;
 	}
 
 
