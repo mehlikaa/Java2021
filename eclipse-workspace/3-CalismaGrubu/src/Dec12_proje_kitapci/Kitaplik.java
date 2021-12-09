@@ -170,7 +170,7 @@ public class Kitaplik {
 		for (int i = 0; i < kitap.kitaplar.size(); i++) {
 			System.out.println("\t" + kitap.kitapNo.get(i) + "\t | \t" + kitap.kitaplar.get(i));
 		}
-		System.out.print("Menuyu gormek ister misiniz? (E/H): ");
+		System.out.print("Menuyu gormek ister misiniz?   (E/H):   ");
 
 		String sec = scan.next();
 		if (sec.equalsIgnoreCase("e")) {
