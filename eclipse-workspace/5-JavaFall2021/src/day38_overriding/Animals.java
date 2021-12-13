@@ -5,7 +5,9 @@ public class Animals {
 	public static void main(String[] args) {
 
 	}
-
+	 
+// overridden
+	
 	public void hareket() {
 		System.out.println("Tum hayvanlar hareket eder.");
 	}
