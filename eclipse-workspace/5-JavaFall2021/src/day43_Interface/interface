@@ -1,0 +1,25 @@
+  //1- Interface'de concrete method olmaz
+    //   (full absttraction = Interface)
+    
+    //2- Biz birden fazla class extends ile inherit edemeyiz
+    //   ama birden fazla interface implements ile inherit edilebilir.
+    
+    //3- Birden fazla parent interface varsa , variable'lar karismasin
+    //   diye interface ismi variable ismi kullanilir
+    
+    //4- interface'lerde olan her abstract method override 
+    //   edilecegi icin hangi interface'den method'u alip override 
+    //   edecegimiz onemli degildir
+    //   sadece eger ayni signature ama farkli return type 
+    //   olursa Java 2 interface'e implements yaptirmaz
+    
+    //5- interface'de concrete method olmaz
+    //   ancak body'si olan method olabilir
+    //   Java 2 kelimeye body'si olan method olusturmak 
+    //   icin izin vermistir
+    
+    //==>default keyword (Kesinlikle access modifier degil)
+    //   child class'lardan obje olusturarak erisilebilir
+    
+    //==>static keyword(bizim bildigimiz static degil)
+    //   child class'lardan interfaceismi.methodismi ile ulasabiliriz 
